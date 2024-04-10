@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.2s all;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: #444444;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+}
+
+h1 {
+    color: #fff;
+    margin: 20px 0;
+}
+
+.box {
+    background-color: #fff;
+    width: 700px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 20px;
+    padding: 40px 0;
+    gap: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nascimento {
+    font-size: 24px;
+    line-height: 36px;
+    outline: none;
+    background-color: #efefef;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 0 8px;
+    width: 100px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.sex {
+    display: flex;
+    gap: 10px;
+}
+
+.sex label {
+    margin-right: 20px;
+}
+
+.botao {
+    font-size: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.foto img {
+    border-radius: 50%;
+}
